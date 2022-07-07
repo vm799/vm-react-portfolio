@@ -9,7 +9,7 @@ import Footer from "./components/Footer/Footer";
 import TextSlider from "./components/TextSlider/TextSlider";
 import DotRing from "./components/DotRing/DotRing";
 import { MouseContext } from "./context/mouse-context";
-// import FocusLock from 'react-focus-lock';
+
 import {  Menu } from './components';
 import { Burger } from './components';
 
@@ -25,6 +25,7 @@ function App() {
   const node = useRef();
   const menuId = "main-menu";
 
+ 
 
 function reveal(){
   let reveals = document.querySelectorAll(".reveal");
